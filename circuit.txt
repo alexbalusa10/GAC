@@ -1,0 +1,7 @@
+function circuit 
+y = imread('circuit.jpg');
+subplot('position',[0.01 0.01 0.99 0.99]);
+image(y);
+axis off;
+end
+
